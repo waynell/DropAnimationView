@@ -1,0 +1,21 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.waynell.library.DropAnimationView
+        android:id="@+id/drop_animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:minSize="30dp"
+        app:maxSize="50dp"
+        app:largePercent="80%"
+        app:rate="100"
+        app:xAnimate="true"
+        app:yAnimate="true"
+        app:rotationAnimate="true"/>
+
+</RelativeLayout>
