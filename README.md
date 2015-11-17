@@ -7,7 +7,9 @@ Using Android Property Animation to implement the animation of leaves falling.
 ---
 ![preview_drop_animation](preview_drop_animation.gif)
 
-
+# Gradle dedependency
+    compile 'com.waynell.library:drop-animation-view:1.0'
+    
 # Usage
 ---
 First, add following code into your layout xml
